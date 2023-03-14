@@ -1,3 +1,4 @@
 {
-    "url": "testing"
+    "todoApiURL": "https://mk-todo-web-api.azurewebsites.net/api/ChethanTodoItems",
+    "deleteApiURL": "https://mk-todo-web-api.azurewebsites.net/ChethanTodoItems/deleteAll"
 }

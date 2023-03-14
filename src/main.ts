@@ -1,9 +1,6 @@
 import './styles/style.css'
 import typescriptLogo from './assets/typescript.svg'
 import { setupCounter } from './assets/counter'
-import config from './config.json';
-
-console.log(config);
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
