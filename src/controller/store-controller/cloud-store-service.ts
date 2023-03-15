@@ -1,24 +1,9 @@
 import { TodoItem } from '../../model/todo-item.js'
-import { IValueObjectType, OptionHeaderType } from '../../utils/types'
+import { OptionObject, optionHeader } from '../../model/option-object.js'
 import config from '../../config.json'
 
 const {todoApiURL, deleteApiURL} = config
 
-const optionHeader: OptionHeaderType = {
-    "Content-type": "application/json",
-}
-
-class OptionObject {
-    method;
-    body;
-    headers;
-
-    constructor(method: string, body?: IValueObjectType, header?: OptionHeaderType) {
-        this.method = method;
-        this.body = JSON.stringify(body);
-        this.headers = header;
-    }
-}
 
 export function cloudStore() {
     return {
