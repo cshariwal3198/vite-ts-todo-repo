@@ -16,5 +16,21 @@
     "skipLibCheck": true,
     "outDir": "./dist"
   },
-  "include": ["src"]
+  "include": ["src"],
+
+//   "options":{  
+//     "index":"./index.html",
+//     "main":"./src/main.ts", 
+//     "tsConfig":"./tsconfig.json",
+//     "assets":[  
+//        "src/assets"
+//      ],
+//     "styles":[  
+//        "node_modules/bootstrap@5.2.3/dist/css/bootstrap.min.css",
+//        "./src/styles/style.css"
+//      ],
+//     "scripts":[],
+//     "es5BrowserSupport":true
+// }
 }
+

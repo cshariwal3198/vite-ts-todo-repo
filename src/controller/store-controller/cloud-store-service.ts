@@ -1,9 +1,6 @@
 import { TodoItem } from '../../model/todo-item.js'
 import { OptionObject, optionHeader } from '../../model/option-object.js'
-import config from '../../config.json'
-
-const {todoApiURL, deleteApiURL} = config
-
+import {todoApiURL, deleteApiURL} from '../../main'
 
 export function cloudStore() {
     return {

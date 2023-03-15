@@ -1,2 +1,3 @@
-import { TodoItem } from "./model/todo-item";
-console.log(new TodoItem("peter"));
+import config from './config.json'
+
+export const {todoApiURL, deleteApiURL} = config
